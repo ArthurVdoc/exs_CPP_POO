@@ -1,2 +1,2 @@
-# exs_C-_POO
+# exs_CPP_POO
 Alguns exercícios para aprender POO em C++
