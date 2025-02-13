@@ -7,15 +7,15 @@ class Pessoa{
         int idade;
     public:
         Pessoa(std::string n, int i):nome(n), idade(i){}
-        std::string getNome(){
+        std::string getNome()const{
             return nome;
         }
-        int getIdade(){
+        int getIdade()const{
             return idade;
         }
-        void exibirDados();
+        void exibirDados()const;
 };
-    void Pessoa::exibirDados(){
+    void Pessoa::exibirDados()const{
         std::cout<<"Nome : "<<getNome()<<std::endl;
         std::cout<<"Idade: "<<getIdade()<<std::endl;
     }
